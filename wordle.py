@@ -1,6 +1,7 @@
 import pygame
 from words import wordList, wordsOfLen
 import random
+import sys
 pygame.init()
 
 WIDTH = 1400
@@ -276,7 +277,7 @@ def toggleAlert(screen, message, show, start, duration):
 			show = False
 			if message != "Not in word list" and  message != "Not enough letters":
 				pygame.quit()
-				exit()
+				sys.exit()
 		
 	pygame.display.update()
 	return show
@@ -332,12 +333,12 @@ while True:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			pygame.quit()
-			#exit()
+			sys.exit()
 		
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_ESCAPE: #exit game
 				pygame.quit()
-				#exit()
+				sys.exit()
 			if game_active and not showingAlert:
 				letter = pygame.key.name(event.key).upper()
 				if event.key == pygame.K_RETURN: #sends guess to be checked and moves to next row for new guess
