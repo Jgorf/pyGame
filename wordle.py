@@ -332,12 +332,12 @@ while True:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			pygame.quit()
-			exit()
+			#exit()
 		
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_ESCAPE: #exit game
 				pygame.quit()
-				exit()
+				#exit()
 			if game_active and not showingAlert:
 				letter = pygame.key.name(event.key).upper()
 				if event.key == pygame.K_RETURN: #sends guess to be checked and moves to next row for new guess
