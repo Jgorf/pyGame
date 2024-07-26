@@ -35,11 +35,9 @@
 
 ## How to Install/Run Project
 
-There are two ways to get up and running with `pyWordle`:
-
 ### Option 1: Download the Pre-built Executable
 
-The simplest way to start playing `pyWordle` is to download the pre-built executable file. This option does not require Python or any additional libraries. 
+&nbsp;&nbsp;The simplest way to start playing `pyWordle` is to download the pre-built executable file. This option does not require Python or any additional libraries. 
 
 1. **Download the .exe File**: 
    - Visit the [GitHub repository for pyWordle](https://github.com/Jgorf/pyWordle) and press the code button.
@@ -51,7 +49,7 @@ The simplest way to start playing `pyWordle` is to download the pre-built execut
 
 ### Option 2: Run the Code on Local Machine
 
-If you prefer to run the code yourself, follow these steps. This option requires Python and the Pygame library.
+&nbsp;&nbsp;If you prefer to run the code yourself, follow these steps. This option requires Python and the Pygame library.
 
 1. **Install Python**:
    - Download and install Python from the [official Python website](https://www.python.org/downloads/).
