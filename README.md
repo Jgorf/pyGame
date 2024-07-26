@@ -49,7 +49,7 @@ The simplest way to start playing `pyWordle` is to download the pre-built execut
    - Extract the contents of the `.zip` file to a directory on your computer.
    - Double-click the `pyWordle.exe` file to run the game.
 
-### Option 2: Run the Code from Source
+### Option 2: Run the Code on Local Machine
 
 If you prefer to run the code yourself, follow these steps. This option requires Python and the Pygame library.
 
@@ -62,11 +62,18 @@ If you prefer to run the code yourself, follow these steps. This option requires
      pip install pygame
      ```
 
-3. **Download the Source Code**:
-   - Clone the repository or download the source code from the [GitHub repository](https://github.com/Jgorf/pyWordle).
+3. **Clone the Repository**:
+   - Clone the repository to your local machine from the [GitHub repository](https://github.com/Jgorf/pyWordle).
+   - Or use your command line interface and enter:
+    ```bash
+     git clone https://github.com/Jgorf/pyWordle.git
+     ``` 
 
 4. **Run the Game**:
-   - Navigate to the directory containing the `pyWordle` source code in your CLI.
+   - Navigate to the directory containing the `pyWordle` source code in your CLI:
+     ```bash
+     cd pyWordle
+     ```
    - Run the game by executing:
      ```bash
      python pyWordle.py
