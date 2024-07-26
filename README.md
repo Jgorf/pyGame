@@ -76,5 +76,5 @@ If you prefer to run the code yourself, follow these steps. This option requires
      ```
    - Run the game by executing:
      ```bash
-     python pyWordle.py
+     python wordle.py
      ```
